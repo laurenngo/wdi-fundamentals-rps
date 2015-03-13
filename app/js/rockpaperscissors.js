@@ -73,16 +73,16 @@ function getWinner(playerMove,computerMove) {
 
     if (computerMove === "paper") {
         if (playerMove === "scissors") {
-            winner = "Player";
+            winner = "player";
         }
         else if (playerMove === "paper") {
-            winner = "Tie";
+            winner = "tie";
         }
         else if (playerMove === "rock") {
-            winner = "Computer";
+            winner = "computer";
         }
         else {
-            winner = "Spock";
+            winner = "spock";
         }
     }
     return winner;
